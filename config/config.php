@@ -22,7 +22,7 @@ date_default_timezone_set('Asia/Manila');
 define('SITE_NAME', 'Alvion');
 define('SITE_SHORT_NAME', 'ALVION');
 define('SITE_VERSION', '1.0.0');
-define('BASE_URL', 'http://localhost/hospital-hr3'); // Update this to your actual base URL
+define('BASE_URL', ''); // Update this to your actual base URL
 
 // Theme Colors
 define('PRIMARY_COLOR', 'teal');
@@ -33,8 +33,8 @@ define('NEUTRAL_COLOR', 'slate');
 // reCAPTCHA Configuration
 // Get your keys from: https://www.google.com/recaptcha/admin
 // For testing, Google provides test keys that always pass: 6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI (Site Key)
-define('RECAPTCHA_SITE_KEY', '6LcBwPQrAAAAAFyq70T-0JYC31_4egSWyI3ijlVf'); // Replace with your actual site key (using test key for development)
-define('RECAPTCHA_SECRET_KEY', '6LcBwPQrAAAAAJBf746ZZFevjCSRMAEPB8w7JZ53'); // Replace with your actual secret key (using test key for development)
+define('RECAPTCHA_SITE_KEY', ''); // Replace with your actual site key (using test key for development)
+define('RECAPTCHA_SECRET_KEY', ''); // Replace with your actual secret key (using test key for development)
 define('RECAPTCHA_ENABLED', true); // Set to false to disable reCAPTCHA
 
 // HR3 QR token secret (set via env or .env)
