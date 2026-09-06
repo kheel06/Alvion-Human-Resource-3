@@ -8,7 +8,7 @@
 // AI Provider Settings
 define('AI_ENABLED', true);
 define('AI_API_KEY', getenv('AI_API_KEY') ?: '');  // Set via environment variable
-define('AI_API_URL', getenv('AI_API_URL') ?: 'https://api.openai.com/v1/chat/completions');
+define('AI_API_URL', getenv('AI_API_URL') ?: '');
 define('AI_MODEL', getenv('AI_MODEL') ?: 'gpt-3.5-turbo');
 define('AI_MAX_TOKENS', (int)(getenv('AI_MAX_TOKENS') ?: 1024));
 define('AI_TEMPERATURE', (float)(getenv('AI_TEMPERATURE') ?: 0.3));
